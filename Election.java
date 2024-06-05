@@ -17,9 +17,7 @@ public class Election {
     voterThree.vote(candidateOne);
     voterOne.vote(candidateTwo);
 
-    System.out.println("=====================================");
     canAry.displayVoteCount();
-    System.out.println("=====================================");
     canAry.displayWinner();
 
   }

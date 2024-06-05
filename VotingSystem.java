@@ -9,7 +9,7 @@ public class VotingSystem {
 
   public void displayVoteCount() {
     for (int i = 0; i < candidates.length; i++) {
-      System.out.println(candidates[0].getId() + " " + candidates[0].getName() + ": " + candidates[0].getVotes());
+      System.out.println(candidates[i].getId() + " " + candidates[i].getName() + ": " + candidates[i].getVotes());
     }
   }
 

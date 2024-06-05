@@ -20,11 +20,11 @@ public class Voter {
 
   public void vote(Candidate c) {
     if (hasVoted) {
-      System.out.println("Hello " + c.getName() + ", you have previously casted your vote and cannot vote again.");
+      System.out.println("Hello " + name + ", you have previously casted your vote and cannot vote again.");
     } else {
       c.addVote();
       hasVoted = true;
-      System.out.println("Hello " + c.getName() + ", thank you for casting your vote");
+      System.out.println("Hello " + name + ", thank you for casting your vote");
     }
   }
 }
